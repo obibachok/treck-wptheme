@@ -1,0 +1,28 @@
+body {
+  overflow-x: hidden;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-item {
+  direction: rtl;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.main-menu__update-carousel.owl-theme .owl-nav .owl-prev{
+  margin-right: 10px;
+}
+
+.main-slider .owl-theme .owl-dots .owl-dot + .owl-dot {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.scroll-to-top i{
+  transform: rotate(270deg);
+}
